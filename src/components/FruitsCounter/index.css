@@ -1,0 +1,52 @@
+.fruit-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-size: cover;
+}
+.inner-container {
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  height: 700px;
+  width: 700px;
+}
+.heading {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  align-self: center;
+}
+.value {
+  color: #ffd569;
+}
+.fruit-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mango-card {
+  display: flex;
+  flex-direction: column;
+}
+.button-style {
+  height: 20px;
+  width: 120px;
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 10px;
+}
+.mango-image {
+  height: 200px;
+  width: 200px;
+}
